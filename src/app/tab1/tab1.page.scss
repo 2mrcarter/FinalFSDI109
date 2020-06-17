@@ -1,0 +1,33 @@
+ion-content{
+    --background: radial-gradient(circle, rgb(201, 222, 245) 5%, rgb(52, 156, 253) 44%);
+    --ion-background-color: white;
+  
+}
+
+ion-card-content{
+    padding: 10px;
+    img {
+        max-height: 350px;
+    }
+}
+
+ion-card-header{
+    padding-top: 0 10px 10px 10px;
+
+    ion-card-title{
+        font-size: 22px;
+    }
+
+    ion-card-subtitle{
+        margin-top: 10px;
+        font-size:14px;
+        text-transform: capitalize;
+        color: blue($color: #90f39d);
+        display: inline-block;
+    }
+
+    .date{
+        float: right;
+        color: green;
+    }
+}

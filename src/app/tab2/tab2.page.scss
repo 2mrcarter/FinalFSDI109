@@ -1,0 +1,32 @@
+ion-content{
+    --ion-background-color: radial-gradient(circle, rgb(201, 222, 245) 5%, rgb(52, 156, 253) 44%);
+    background: rgb(228,222,17);
+    background: radial-gradient(circle, rgba(228,222,17,1) 5%, rgba(15,161,242,1) 39%);
+}
+ion-title style{
+    font-size: 5.5rem;
+}
+
+ion-card-content{
+    text-align: center;
+    padding: 10px;
+    background-image: url(/assets/background.jpeg);
+}
+
+ion-card{
+    border: 3px rgb(255, 253, 143) solid;
+    border-radius: 10px;
+}
+
+input{
+    background-color: white;
+}
+
+ion-button{
+    border: 1.5px rgb(253, 251, 110) solid;
+    border-radius: 10px;
+    ion-icon{
+        margin-left: 10px;
+        
+    }
+}

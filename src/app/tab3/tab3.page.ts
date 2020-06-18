@@ -3,7 +3,7 @@ import { Friend } from '../models/friend';
 import { SharedService } from '../services/shared.service';
 import { DataService } from '../services/data.service';
 
-@Component({
+@Component({ 
   selector: 'app-tab3',
   templateUrl: 'tab3.page.html',
   styleUrls: ['tab3.page.scss']

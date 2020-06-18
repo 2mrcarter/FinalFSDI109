@@ -13,7 +13,7 @@ import { firestore } from 'firebase';
 @Injectable({
   providedIn: 'root'
 })
-export class DataService {
+export class DataService { 
 
   private allMessages: Observable<Message[]>;
   private allFriends: Observable<Friend[]>;

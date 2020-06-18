@@ -17,7 +17,7 @@ export class Tab2Page {
     this.data.getAllFriends().subscribe(list => {
       //filter to get only my friends
       this.myFriends = list.filter(friend => friend.friendOf == this.shared.userName);
-     
+       
     });
       //Array filter
       // Homework this .friendsToDisplay =  lisfilter(......);
